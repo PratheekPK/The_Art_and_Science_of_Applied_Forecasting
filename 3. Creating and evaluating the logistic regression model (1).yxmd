@@ -1,0 +1,735 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\hp\Downloads\Output.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Output.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Distance_from_nearest_store" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+            <Field name="Mosaic_group" size="64" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="String" />
+            <Field name="Store_visits_6m" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+            <Field name="Amount_purchased_6m" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+            <Field name="Purchased_sale_soda" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Bool" />
+            <Field name="Mosaic_likelihood" size="64" source="Formula: IF (([Mosaic_group] = &quot;A&quot;) OR ([Mosaic_group] = &quot;B&quot;) OR ([Mosaic_group] = &quot;C&quot;) OR ([Mosaic_group] = &quot;D&quot;) OR ([Mosaic_group] = &quot;E&quot;) OR ([Mosaic_group] = &quot;F&quot;) OR ([Mosaic_group] = &quot;G&quot;) OR ([Mosaic_group] = &quot;K&quot;))&#xA;Then &quot;Likely&quot;&#xA;ELSEIF (([Mosaic_group] = &quot;H&quot;) OR ([Mosaic_group] = &quot;J&quot;) OR ([Mosaic_group] = &quot;O&quot;))&#xA;Then &quot;Average&quot;&#xA;ELSE &quot;Unlikely&quot;&#xA;ENDIF" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings>
+        <Position x="486" y="105" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="score field">Score</Value>
+          <Value name="is oversampled">False</Value>
+          <Value name="oversampled value" />
+          <Value name="original percent">2.0</Value>
+          <Value name="log y">False</Value>
+          <Value name="prediction.interval">False</Value>
+          <Value name="interval.level">95</Value>
+          <Value name="append.xdf">False</Value>
+          <Value name="num.records">256000</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Distance_from_nearest_store" source="R-DATA:" type="Double" />
+            <Field name="Mosaic_group" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Store_visits_6m" source="R-DATA:" type="Double" />
+            <Field name="Amount_purchased_6m" source="R-DATA:" type="Double" />
+            <Field name="Purchased_sale_soda" source="R-DATA:" type="Bool" />
+            <Field name="Mosaic_likelihood" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Score_F" source="R-DATA:" type="Double" />
+            <Field name="Score_T" source="R-DATA:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Score.yxmc" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="486" y="189" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\hp\AppData\Local\Temp\Engine_6716_3068d155d2349149b10533441122f827_\Engine_6716_7a05413ea384c3408908e1d353113102~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="618" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Purchased_sale_soda] = &quot;T&quot;&#xA;THEN (IF [Score_T] &gt; .5 THEN &quot;Correct&quot; ELSE &quot;Incorrect&quot; ENDIF)&#xA;ELSE (IF [Score_F] &gt; .5 THEN &quot;Correct&quot; ELSE &quot;Incorrect&quot; ENDIF) ENDIF" field="Correct_prediction" size="64" type="V_WString" />
+            <FormulaField expression="if [Score_T]&gt;.5 then 1 else 0 endif" field="Model" size="1" type="Byte" />
+            <FormulaField expression="if [Purchased_sale_soda] = &quot;T&quot; then 1 else 0 endif" field="Target" size="1" type="Byte" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Correct_prediction = IF [Purchased_sale_soda] = "T"
+THEN (IF [Score_T] &gt; .5 THEN...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Distance_from_nearest_store" source="R-DATA:" type="Double" />
+            <Field name="Mosaic_group" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Store_visits_6m" source="R-DATA:" type="Double" />
+            <Field name="Amount_purchased_6m" source="R-DATA:" type="Double" />
+            <Field name="Purchased_sale_soda" size="1" source="R-DATA:" type="String" />
+            <Field name="Mosaic_likelihood" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Score_F" source="R-DATA:" type="Double" />
+            <Field name="Score_T" source="R-DATA:" type="Double" />
+            <Field name="Correct_prediction" size="64" source="Formula: IF [Purchased_sale_soda] = &quot;T&quot;&#xA;THEN (IF [Score_T] &gt; .5 THEN &quot;Correct&quot; ELSE &quot;Incorrect&quot; ENDIF)&#xA;ELSE (IF [Score_F] &gt; .5 THEN &quot;Correct&quot; ELSE &quot;Incorrect&quot; ENDIF) ENDIF" type="V_WString" />
+            <Field name="Model" source="Formula: if [Score_T]&gt;.5 then 1 else 0 endif" type="Byte" />
+            <Field name="Target" source="Formula: if [Purchased_sale_soda] = &quot;T&quot; then 1 else 0 endif" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings>
+        <Position x="222" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="estimation pct">80</Value>
+          <Value name="validation pct">20</Value>
+          <Value name="rand seed">1</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Estimation">
+          <RecordInfo>
+            <Field name="Distance_from_nearest_store" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+            <Field name="Mosaic_group" size="64" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="String" />
+            <Field name="Store_visits_6m" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+            <Field name="Amount_purchased_6m" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+            <Field name="Purchased_sale_soda" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Bool" />
+            <Field name="Mosaic_likelihood" size="64" source="Formula: IF (([Mosaic_group] = &quot;A&quot;) OR ([Mosaic_group] = &quot;B&quot;) OR ([Mosaic_group] = &quot;C&quot;) OR ([Mosaic_group] = &quot;D&quot;) OR ([Mosaic_group] = &quot;E&quot;) OR ([Mosaic_group] = &quot;F&quot;) OR ([Mosaic_group] = &quot;G&quot;) OR ([Mosaic_group] = &quot;K&quot;))&#xA;Then &quot;Likely&quot;&#xA;ELSEIF (([Mosaic_group] = &quot;H&quot;) OR ([Mosaic_group] = &quot;J&quot;) OR ([Mosaic_group] = &quot;O&quot;))&#xA;Then &quot;Average&quot;&#xA;ELSE &quot;Unlikely&quot;&#xA;ENDIF" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Validation">
+          <RecordInfo>
+            <Field name="Distance_from_nearest_store" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+            <Field name="Mosaic_group" size="64" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="String" />
+            <Field name="Store_visits_6m" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+            <Field name="Amount_purchased_6m" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+            <Field name="Purchased_sale_soda" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Bool" />
+            <Field name="Mosaic_likelihood" size="64" source="Formula: IF (([Mosaic_group] = &quot;A&quot;) OR ([Mosaic_group] = &quot;B&quot;) OR ([Mosaic_group] = &quot;C&quot;) OR ([Mosaic_group] = &quot;D&quot;) OR ([Mosaic_group] = &quot;E&quot;) OR ([Mosaic_group] = &quot;F&quot;) OR ([Mosaic_group] = &quot;G&quot;) OR ([Mosaic_group] = &quot;K&quot;))&#xA;Then &quot;Likely&quot;&#xA;ELSEIF (([Mosaic_group] = &quot;H&quot;) OR ([Mosaic_group] = &quot;J&quot;) OR ([Mosaic_group] = &quot;O&quot;))&#xA;Then &quot;Average&quot;&#xA;ELSE &quot;Unlikely&quot;&#xA;ENDIF" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Holdout">
+          <RecordInfo>
+            <Field name="Distance_from_nearest_store" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+            <Field name="Mosaic_group" size="64" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="String" />
+            <Field name="Store_visits_6m" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+            <Field name="Amount_purchased_6m" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+            <Field name="Purchased_sale_soda" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Bool" />
+            <Field name="Mosaic_likelihood" size="64" source="Formula: IF (([Mosaic_group] = &quot;A&quot;) OR ([Mosaic_group] = &quot;B&quot;) OR ([Mosaic_group] = &quot;C&quot;) OR ([Mosaic_group] = &quot;D&quot;) OR ([Mosaic_group] = &quot;E&quot;) OR ([Mosaic_group] = &quot;F&quot;) OR ([Mosaic_group] = &quot;G&quot;) OR ([Mosaic_group] = &quot;K&quot;))&#xA;Then &quot;Likely&quot;&#xA;ELSEIF (([Mosaic_group] = &quot;H&quot;) OR ([Mosaic_group] = &quot;J&quot;) OR ([Mosaic_group] = &quot;O&quot;))&#xA;Then &quot;Average&quot;&#xA;ELSE &quot;Unlikely&quot;&#xA;ENDIF" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Create_Samples.yxmc" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="67" width="108" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Prepared Customer Info</Text>
+          <Font name="Segoe UI" size="8.25" style="1" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="750" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Correct_prediction" action="GroupBy" rename="Prediction" />
+            <SummarizeField field="Correct_prediction" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Prediction" size="64" source="Summarize: GroupBy - Correct_prediction" type="V_WString" />
+            <Field name="Count" source="Summarize: Count - Correct_prediction" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Prediction" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="918" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\ProgramData\Alteryx\DataProducts\DataSets\Content\Predictive_Analytics_Starter_Kit_Volume_1\Customer_Response_Modeling\Supporting_Macros\Data\New_customer_data.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>New_customer_data.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Customer_ID" source="File: C:\ProgramData\Alteryx\DataProducts\DataSets\Content\Predictive_Analytics_Starter_Kit_Volume_1\Customer_Response_Modeling\Supporting_Macros\Data\New_customer_data.yxdb" type="Int16" />
+            <Field name="Distance_from_nearest_store" source="Formula: (RAND()*10) + .01" type="Double" />
+            <Field name="Amount_purchased_6m" source="Formula: Round([Store_visits_6m]*(RandInt(10) + 20 + RAND()), .01)" type="Double" />
+            <Field name="Mosaic_likelihood" size="64" source="Formula: IF [Mosaic_score] = 1 THEN &quot;Likely&quot; &#xA;ELSEIF [Mosaic_score] = 0 THEN &quot;Average&quot; &#xA;ELSE &quot;Unlikely&quot; ENDIF" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings>
+        <Position x="1026" y="105" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="score field">Score</Value>
+          <Value name="is oversampled">False</Value>
+          <Value name="oversampled value" />
+          <Value name="original percent">2.0</Value>
+          <Value name="log y">False</Value>
+          <Value name="prediction.interval">False</Value>
+          <Value name="interval.level">95</Value>
+          <Value name="append.xdf">False</Value>
+          <Value name="num.records">256000</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Customer_ID" source="R-DATA:" type="Int32" />
+            <Field name="Distance_from_nearest_store" source="R-DATA:" type="Double" />
+            <Field name="Amount_purchased_6m" source="R-DATA:" type="Double" />
+            <Field name="Mosaic_likelihood" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Score_0" source="R-DATA:" type="Double" />
+            <Field name="Score_1" source="R-DATA:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Score.yxmc" />
+    </Node>
+    <Node ToolID="73">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1122" y="105" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\michaelponton\AppData\Local\Temp\Engine_7212_5caa8039a6224dd0b33bdf56b3ef7e18_\Engine_5280_8558fbf629754270aea0326f59405866_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="75">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="894" y="177" width="108" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Prepared Data for Other Customers</Text>
+          <Font name="Segoe UI" size="8.25" style="1" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="76">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1002" y="66" width="108" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Predicting Purchase of Gourmet Soda</Text>
+          <Font name="Segoe UI" size="8.25" style="1" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="80">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="630" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Model" action="GroupBy" rename="Model" />
+            <SummarizeField field="Target" action="GroupBy" rename="Target" />
+            <SummarizeField field="Target" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Model" source="Summarize: GroupBy - Model" type="Byte" />
+            <Field name="Target" source="Summarize: GroupBy - Target" type="Byte" />
+            <Field name="Count" source="Summarize: Count - Target" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Model" order="Asc" />
+            <Field field="Target" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="81">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="738" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields>
+            <Field field="Model" />
+          </GroupFields>
+          <HeaderField field="Target" />
+          <DataField field="Count" />
+          <Methods>
+            <Method method="Sum" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Model" source="CrossTab:Group:Sum:" type="Byte" />
+            <Field name="0" source="CrossTab:Header:Target:0:Sum:" type="Int64" />
+            <Field name="1" source="CrossTab:Header:Target:1:Sum:" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="84">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="642" y="354" width="144" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Create Confusion Matrix</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="86">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="270" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Purchased_sale_soda" selected="True" type="String" size="1" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Distance_from_nearest_store" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+            <Field name="Mosaic_group" size="64" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="String" />
+            <Field name="Store_visits_6m" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+            <Field name="Amount_purchased_6m" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+            <Field name="Purchased_sale_soda" size="1" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="String" />
+            <Field name="Mosaic_likelihood" size="64" source="Formula: IF (([Mosaic_group] = &quot;A&quot;) OR ([Mosaic_group] = &quot;B&quot;) OR ([Mosaic_group] = &quot;C&quot;) OR ([Mosaic_group] = &quot;D&quot;) OR ([Mosaic_group] = &quot;E&quot;) OR ([Mosaic_group] = &quot;F&quot;) OR ([Mosaic_group] = &quot;G&quot;) OR ([Mosaic_group] = &quot;K&quot;))&#xA;Then &quot;Likely&quot;&#xA;ELSEIF (([Mosaic_group] = &quot;H&quot;) OR ([Mosaic_group] = &quot;J&quot;) OR ([Mosaic_group] = &quot;O&quot;))&#xA;Then &quot;Average&quot;&#xA;ELSE &quot;Unlikely&quot;&#xA;ENDIF" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="87">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="582" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Purchased_sale_soda" selected="True" type="String" size="1" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Distance_from_nearest_store" source="R-DATA:" type="Double" />
+            <Field name="Mosaic_group" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Store_visits_6m" source="R-DATA:" type="Double" />
+            <Field name="Amount_purchased_6m" source="R-DATA:" type="Double" />
+            <Field name="Purchased_sale_soda" size="1" source="R-DATA:" type="String" />
+            <Field name="Mosaic_likelihood" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Score_F" source="R-DATA:" type="Double" />
+            <Field name="Score_T" source="R-DATA:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="91">
+      <GuiSettings>
+        <Position x="378" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="model.name">boosted model</Value>
+          <Value name="select.target">Purchased_sale_soda</Value>
+          <Value name="select.predictors">Distance_from_nearest_store=True,Mosaic_group=False,Store_visits_6m=False,Amount_purchased_6m=True,Purchased_sale_soda=False,Mosaic_likelihood=True</Value>
+          <Value name="use.weights">False</Value>
+          <Value name="select.weights">Distance_from_nearest_store</Value>
+          <Value name="marginal.plots">False</Value>
+          <Value name="plot.min.importance">2.5</Value>
+          <Value name="type.distribution">False</Value>
+          <Value name="type.continuous">True</Value>
+          <Value name="dist.gaussian">True</Value>
+          <Value name="dist.laplace">False</Value>
+          <Value name="dist.t">False</Value>
+          <Value name="t.df">4</Value>
+          <Value name="type.count">False</Value>
+          <Value name="type.binomial">False</Value>
+          <Value name="dist.bernoulli">True</Value>
+          <Value name="dist.adaboost">False</Value>
+          <Value name="type.multinomial">False</Value>
+          <Value name="n.trees">100</Value>
+          <Value name="assess.cv">True</Value>
+          <Value name="num.folds">5</Value>
+          <Value name="n.cores">1</Value>
+          <Value name="assess.test">False</Value>
+          <Value name="train.fraction">50.0</Value>
+          <Value name="assess.oob">False</Value>
+          <Value name="bag.fraction">50.0</Value>
+          <Value name="shrinkage">0.0020</Value>
+          <Value name="interaction.depth">1</Value>
+          <Value name="n.minobsinnode">10</Value>
+          <Value name="rand.seed">1</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Object" size="2147483647" source="R-DATA:SERIAL" type="Blob" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Report">
+          <RecordInfo>
+            <Field name="Report" size="1073741823" source="Report: (Multiple Sources)" type="V_WString" />
+            <Field name="Desc" size="64" source="Formula: (Multiple Sources)" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Boosted_Model.yxmc" />
+    </Node>
+    <Node ToolID="92">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="93">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="114" y="222" width="300" height="132" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>The best model is the random forest mode. This may be because I used only 100 trees for the boosting model to reduce the execution time.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="87" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="69" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="80" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Validation" />
+      <Destination ToolID="45" Connection="Left Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="91" Connection="Output" />
+      <Destination ToolID="45" Connection="Right Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Estimation" />
+      <Destination ToolID="86" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="71" Connection="Output" />
+      <Destination ToolID="72" Connection="Left Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="91" Connection="Output" />
+      <Destination ToolID="72" Connection="Right Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="80" Connection="Output" />
+      <Destination ToolID="81" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="86" Connection="Output" />
+      <Destination ToolID="91" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="87" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="False" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>3. Creating and evaluating the logistic regression model</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="f357691b-593a-44ed-8a16-781881dc3568" />
+      <Telemetry>
+        <PreviousWorkflowId value="c3695bf6-4940-4a3b-8bd0-89a8f0744c0a" />
+        <OriginWorkflowId value="e6dc9388-8a94-4bac-a7e0-a1fd09ad87eb" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions />
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (92)</Name>
+          <ToolId value="92" />
+          <Questions />
+        </Question>
+      </Questions>
+      <ModuleType>Wizard</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="0" />
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="91" Selected="True" />
+        <Tool ToolId="45" Selected="True" />
+        <Tool ToolId="46" Selected="False" />
+        <Tool ToolId="49" Selected="True" />
+        <Tool ToolId="72" Selected="True" />
+        <Tool ToolId="73" Selected="False" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

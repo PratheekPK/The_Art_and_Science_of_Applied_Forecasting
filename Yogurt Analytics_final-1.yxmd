@@ -1,0 +1,2156 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="414" y="894" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">Yogurt_Sales_Data.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>True</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Yogurt_Sales_Data.xlsx
+Table=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="F1" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F2" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F3" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F4" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F5" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F6" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F7" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F8" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F9" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F10" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F11" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F12" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F13" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F14" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F15" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F16" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F17" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F18" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F19" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F20" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F21" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F22" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F23" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F24" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F25" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F26" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F27" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F28" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F29" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F30" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F31" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F32" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F33" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F34" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F35" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F36" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F37" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F38" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F39" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F40" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F41" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F42" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F43" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F44" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F45" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F46" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F47" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F48" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F49" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F50" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F51" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F52" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F53" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F54" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="426" y="1062" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">Yogurt_Pricing_Data.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Yogurt_Pricing_Data.xlsx
+Table=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="F1" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Pricing_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Chobani Total Greek Yogurt Sngl Srv" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Pricing_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Dannon Total Greek Yogurt Sngl Srv" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Pricing_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Yoplait Greek Yogurt Sngl Srv" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Pricing_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Pvt Lbl Greek Yogurt Sngl Srv" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Pricing_Data.xlsx|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="936" height="108" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Use Case: Investigate the relationship between sales and pricing of your yogurt brand (Chobani) and the pricing of a competing brand (Yoplait)
+]]></Text>
+          <Font name="Segoe UI" size="20.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="174" width="936" height="204" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Description:
+ 
+You are a demand planner for Chobani, a large yogurt manufacturer, and would like to investigate the relationships between sales and pricing of the Chobani yogurt brand and the pricing of its primary competing brand Yoplait. 
+ 
+Weekly sales for the Chobani yogurt brand across several grocery chains has been exported to an Excel spreadsheet. The file is named Yogurt_Sales_Data.xlsx. Weekly pricing of Chobani and competing brands across the grocery chains has also been generated. This file is named Yogurt_Pricing_Data.xlsx. 
+ 
+The goal is to prep the two files, blend the data to create an analytical dataset (i.e. Modeling Table) and analyze the data to gain insight into the relationships of pricing and sales. Please summarize the relationship in a comment tool.</Text>
+          <Font name="Segoe UI" size="9.75" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="618" y="906" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Skip</Mode>
+          <N>1</N>
+          <GroupFields orderChanged="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Skip 1st 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="738" y="918" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>FirstRow</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="F1" />
+            <Field name="F2" />
+            <Field name="F3" />
+            <Field name="F4" />
+            <Field name="F5" />
+            <Field name="F6" />
+            <Field name="F7" />
+            <Field name="F8" />
+            <Field name="F9" />
+            <Field name="F10" />
+            <Field name="F11" />
+            <Field name="F12" />
+            <Field name="F13" />
+            <Field name="F14" />
+            <Field name="F15" />
+            <Field name="F16" />
+            <Field name="F17" />
+            <Field name="F18" />
+            <Field name="F19" />
+            <Field name="F20" />
+            <Field name="F21" />
+            <Field name="F22" />
+            <Field name="F23" />
+            <Field name="F24" />
+            <Field name="F25" />
+            <Field name="F26" />
+            <Field name="F27" />
+            <Field name="F28" />
+            <Field name="F29" />
+            <Field name="F30" />
+            <Field name="F31" />
+            <Field name="F32" />
+            <Field name="F33" />
+            <Field name="F34" />
+            <Field name="F35" />
+            <Field name="F36" />
+            <Field name="F37" />
+            <Field name="F38" />
+            <Field name="F39" />
+            <Field name="F40" />
+            <Field name="F41" />
+            <Field name="F42" />
+            <Field name="F43" />
+            <Field name="F44" />
+            <Field name="F45" />
+            <Field name="F46" />
+            <Field name="F47" />
+            <Field name="F48" />
+            <Field name="F49" />
+            <Field name="F50" />
+            <Field name="F51" />
+            <Field name="F52" />
+            <Field name="F53" />
+            <Field name="F54" />
+            <Field name="*Unknown" />
+          </Fields>
+          <Expression />
+          <FirstRow>
+            <OnError>Warn</OnError>
+          </FirstRow>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store Brand" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Measurement" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2012-09-08" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2012-09-15" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2012-09-22" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2012-09-29" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2012-10-06" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2012-10-13" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2012-10-20" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2012-10-27" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2012-11-03" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2012-11-10" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2012-11-17" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2012-11-24" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2012-12-01" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2012-12-08" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2012-12-15" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2012-12-22" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2012-12-29" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2013-01-05" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2013-01-12" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2013-01-19" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2013-01-26" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2013-02-02" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2013-02-09" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2013-02-16" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2013-02-23" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2013-03-02" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2013-03-09" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2013-03-16" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2013-03-23" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2013-03-30" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2013-04-06" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2013-04-13" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2013-04-20" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2013-04-27" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2013-05-04" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2013-05-11" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2013-05-18" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2013-05-25" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2013-06-01" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2013-06-08" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2013-06-15" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2013-06-22" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2013-06-29" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2013-07-06" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2013-07-13" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2013-07-20" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2013-07-27" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2013-08-03" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2013-08-10" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2013-08-17" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2013-08-24" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="2013-08-31" size="255" source="File: Y:\Dropbox (DECIPHER)\UCI Business Analytics MSBA\2019 Winter\COURSE MATERIAL\WEEK 04\Homework\Yogurt Analytics\Yogurt_Sales_Data.xlsx|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="846" y="918" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="Store Brand" />
+            <Field field="Measurement" />
+          </KeyFields>
+          <DataFields>
+            <Field field="Store Brand" selected="False" />
+            <Field field="Measurement" selected="False" />
+            <Field field="2012-09-08" selected="True" />
+            <Field field="2012-09-15" selected="True" />
+            <Field field="2012-09-22" selected="True" />
+            <Field field="2012-09-29" selected="True" />
+            <Field field="2012-10-06" selected="True" />
+            <Field field="2012-10-13" selected="True" />
+            <Field field="2012-10-20" selected="True" />
+            <Field field="2012-10-27" selected="True" />
+            <Field field="2012-11-03" selected="True" />
+            <Field field="2012-11-10" selected="True" />
+            <Field field="2012-11-17" selected="True" />
+            <Field field="2012-11-24" selected="True" />
+            <Field field="2012-12-01" selected="True" />
+            <Field field="2012-12-08" selected="True" />
+            <Field field="2012-12-15" selected="True" />
+            <Field field="2012-12-22" selected="True" />
+            <Field field="2012-12-29" selected="True" />
+            <Field field="2013-01-05" selected="True" />
+            <Field field="2013-01-12" selected="True" />
+            <Field field="2013-01-19" selected="True" />
+            <Field field="2013-01-26" selected="True" />
+            <Field field="2013-02-02" selected="True" />
+            <Field field="2013-02-09" selected="True" />
+            <Field field="2013-02-16" selected="True" />
+            <Field field="2013-02-23" selected="True" />
+            <Field field="2013-03-02" selected="True" />
+            <Field field="2013-03-09" selected="True" />
+            <Field field="2013-03-16" selected="True" />
+            <Field field="2013-03-23" selected="True" />
+            <Field field="2013-03-30" selected="True" />
+            <Field field="2013-04-06" selected="True" />
+            <Field field="2013-04-13" selected="True" />
+            <Field field="2013-04-20" selected="True" />
+            <Field field="2013-04-27" selected="True" />
+            <Field field="2013-05-04" selected="True" />
+            <Field field="2013-05-11" selected="True" />
+            <Field field="2013-05-18" selected="True" />
+            <Field field="2013-05-25" selected="True" />
+            <Field field="2013-06-01" selected="True" />
+            <Field field="2013-06-08" selected="True" />
+            <Field field="2013-06-15" selected="True" />
+            <Field field="2013-06-22" selected="True" />
+            <Field field="2013-06-29" selected="True" />
+            <Field field="2013-07-06" selected="True" />
+            <Field field="2013-07-13" selected="True" />
+            <Field field="2013-07-20" selected="True" />
+            <Field field="2013-07-27" selected="True" />
+            <Field field="2013-08-03" selected="True" />
+            <Field field="2013-08-10" selected="True" />
+            <Field field="2013-08-17" selected="True" />
+            <Field field="2013-08-24" selected="True" />
+            <Field field="2013-08-31" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="954" y="918" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Name" selected="True" rename="Date" />
+            <SelectField field="Value" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="1062" y="918" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields>
+            <Field field="Store Brand" />
+            <Field field="Date" />
+          </GroupFields>
+          <HeaderField field="Measurement" />
+          <DataField field="Value" />
+          <Methods>
+            <Method method="Sum" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store Brand" size="255" source="CrossTab:Group:Sum:" type="V_String" />
+            <Field name="Date" size="10" source="CrossTab:Group:Sum:" type="String" />
+            <Field name="BL_DOLLARS" source="CrossTab:Header:Measurement:BL DOLLARS:Sum:" type="Double" />
+            <Field name="BL_UNITS" source="CrossTab:Header:Measurement:BL UNITS:Sum:" type="Double" />
+            <Field name="DISP_ONLY__ACV__MAX_" source="CrossTab:Header:Measurement:DISP ONLY %ACV (MAX):Sum:" type="Double" />
+            <Field name="DOLLARS" source="CrossTab:Header:Measurement:DOLLARS:Sum:" type="Double" />
+            <Field name="FEAT_ONLY__ACV__MAX_" source="CrossTab:Header:Measurement:FEAT ONLY %ACV (MAX):Sum:" type="Double" />
+            <Field name="INC_DOLLARS" source="CrossTab:Header:Measurement:INC DOLLARS:Sum:" type="Double" />
+            <Field name="INC_UNITS" source="CrossTab:Header:Measurement:INC UNITS:Sum:" type="Double" />
+            <Field name="PRICEDISC__ACV__MAX_" source="CrossTab:Header:Measurement:PRICEDISC %ACV (MAX):Sum:" type="Double" />
+            <Field name="UNITS" source="CrossTab:Header:Measurement:UNITS:Sum:" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Store Brand" order="Asc" />
+            <Field field="Date" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="618" y="1062" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Skip</Mode>
+          <N>1</N>
+          <GroupFields orderChanged="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Skip 1st 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="738" y="1062" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>F1</UpdateField_Name>
+          <CreateField_Name>Store Brand</CreateField_Name>
+          <CreateField_Type>V_WString</CreateField_Type>
+          <CreateField_Size>255</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>if isnull([Chobani Total Greek Yogurt Sngl Srv]) then [F1] else [Row-1:Store Brand] endif</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>if isnull([Chobani Total Greek Yogurt Sngl Srv]) then [F1] el...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="846" y="1062" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotNull</Operator>
+            <Field>Chobani Total Greek Yogurt Sngl Srv</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>False</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-01-30 14:46:12</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2019-01-30 14:46:12</StartDate>
+              <EndDate>2019-01-30 14:46:12</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([Chobani Total Greek Yogurt Sngl Srv])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="954" y="1062" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="F1" selected="True" rename="Date" />
+            <SelectField field="Chobani Total Greek Yogurt Sngl Srv" selected="True" type="Double" size="8" />
+            <SelectField field="Dannon Total Greek Yogurt Sngl Srv" selected="True" type="Double" size="8" />
+            <SelectField field="Yoplait Greek Yogurt Sngl Srv" selected="True" type="Double" size="8" />
+            <SelectField field="Pvt Lbl Greek Yogurt Sngl Srv" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1206" y="990" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Date" />
+            <Field field="Store Brand" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Date" />
+            <Field field="Store Brand" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_BL_DOLLARS" selected="False" input="Left_" />
+                <SelectField field="Left_BL_UNITS" selected="False" input="Left_" />
+                <SelectField field="Left_DISP_ONLY__ACV__MAX_" selected="False" input="Left_" />
+                <SelectField field="Left_DOLLARS" selected="False" input="Left_" />
+                <SelectField field="Left_FEAT_ONLY__ACV__MAX_" selected="False" input="Left_" />
+                <SelectField field="Left_INC_DOLLARS" selected="False" input="Left_" />
+                <SelectField field="Left_INC_UNITS" selected="False" input="Left_" />
+                <SelectField field="Left_PRICEDISC__ACV__MAX_" selected="False" input="Left_" />
+                <SelectField field="Right_Date" selected="False" rename="Right_Date" />
+                <SelectField field="Right_Chobani Total Greek Yogurt Sngl Srv" selected="True" rename="Price Chobani" />
+                <SelectField field="Right_Dannon Total Greek Yogurt Sngl Srv" selected="False" rename="Price Dannon" />
+                <SelectField field="Right_Yoplait Greek Yogurt Sngl Srv" selected="True" rename="Price Yoplait" />
+                <SelectField field="Right_Pvt Lbl Greek Yogurt Sngl Srv" selected="False" />
+                <SelectField field="Right_Store Brand" selected="False" rename="Right_Store Brand" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1434" y="990" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Store Brand" order="Ascending" />
+            <Field field="Date" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Store Brand - Ascending
+Date - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="Linear_Regression">
+        <Position x="1662" y="990" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="curPage">Home</Value>
+          <Value name="curTab">advanced</Value>
+          <Value name="standardize_pred">True</Value>
+          <Value name="internal_cv">True</Value>
+          <Value name="display_graphs">True</Value>
+          <Value name="set_seed_internal_cv">True</Value>
+          <Value name="set_seed_external_cv">True</Value>
+          <Value name="lambda_1se">True</Value>
+          <Value name="lambda_min">False</Value>
+          <Value name="Model Name">Linear_Regression_23</Value>
+          <Value name="Y Var">log_UNTIS</Value>
+          <Value name="X Vars">Store Size,log_Price Chobani,log_Price Yoplait</Value>
+          <Value name="Omit Constant">False</Value>
+          <Value name="Use Weights">False</Value>
+          <Value name="Weight Vec" />
+          <Value name="regularization">False</Value>
+          <Value name="alpha">0.5</Value>
+          <Value name="nfolds">5</Value>
+          <Value name="lambda">lambda_1se</Value>
+          <Value name="seed_internal_cv">1</Value>
+          <Value name="lambda_no_cv">0.5</Value>
+          <Value name="external_cv">False</Value>
+          <Value name="nfolds_external">5</Value>
+          <Value name="numberTrials">3</Value>
+          <Value name="external_seed_value">1</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Linear_Regression_23</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" EngineDll="Macro" EngineDllEntryPoint="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" />
+    </Node>
+    <Node ToolID="65">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1794" y="990" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\hp\AppData\Local\Temp\Engine_3332_33339fec771e4246b0b17d9a4235549f_\Engine_3332_c7fc82f20836e2438cdee49fdb4dda30~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings>
+        <Position x="1662" y="1110" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="score field">Score</Value>
+          <Value name="is oversampled">False</Value>
+          <Value name="oversampled value" />
+          <Value name="original percent">2.0</Value>
+          <Value name="log y">False</Value>
+          <Value name="prediction.interval">False</Value>
+          <Value name="interval.level">95</Value>
+          <Value name="append.xdf">False</Value>
+          <Value name="num.records">256000</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store.Brand" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Date" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="UNITS" source="R-DATA:" type="Double" />
+            <Field name="Price.Chobani" source="R-DATA:" type="Double" />
+            <Field name="Price.Yoplait" source="R-DATA:" type="Double" />
+            <Field name="Store.Size" source="R-DATA:" type="Int32" />
+            <Field name="Dif.Price.Yoplait" source="R-DATA:" type="Double" />
+            <Field name="log_UNTIS" source="R-DATA:" type="Double" />
+            <Field name="log_Price.Chobani" source="R-DATA:" type="Double" />
+            <Field name="log_Price.Yoplait" source="R-DATA:" type="Double" />
+            <Field name="Log_Dif.Price.Yoplait" source="R-DATA:" type="Double" />
+            <Field name="Month" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Score" source="R-DATA:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Score.yxmc" />
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1758" y="1110" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[log_UNTIS]-[Score]" field="Error" size="8" type="Double" />
+            <FormulaField expression="abs([Error]/[UNITS])" field="MAPE" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Error = [log_UNTIS]-[Score]
+MAPE = abs([Error]/[UNITS])
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1350" y="990" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Price Yoplait]-[Price Chobani]" field="Dif Price Yoplait" size="8" type="Double" />
+            <FormulaField expression="log([UNITS])" field="log_UNTIS" size="8" type="Double" />
+            <FormulaField expression="log([Price Chobani])" field="log_Price Chobani" size="8" type="Double" />
+            <FormulaField expression="log([Price Yoplait])" field="log_Price Yoplait" size="8" type="Double" />
+            <FormulaField expression="log([Dif Price Yoplait])" field="Log_Dif Price Yoplait" size="8" type="Double" />
+            <FormulaField expression="Substring([Date],5,2)" field="Month" size="2" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Dif Price Yoplait = [Price Yoplait]-[Price Chobani]
+log_UNTIS = log([UNITS])
+log...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="510" y="594" width="936" height="204" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Description:
+ 
+You are a demand planner for Chobani, a large yogurt manufacturer, and would like to investigate the relationships between sales and pricing of the Chobani yogurt brand and the pricing of its primary competing brand Yoplait. 
+ 
+Weekly sales for the Chobani yogurt brand across several grocery chains has been exported to an Excel spreadsheet. The file is named Yogurt_Sales_Data.xlsx. Weekly pricing of Chobani and competing brands across the grocery chains has also been generated. This file is named Yogurt_Pricing_Data.xlsx. 
+ 
+The goal is to prep the two files, blend the data to create an analytical dataset (i.e. Modeling Table) and analyze the data to gain insight into the relationships of pricing and sales. Please summarize the relationship in a comment tool.</Text>
+          <Font name="Segoe UI" size="9.75" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1782" y="1038" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\hp\AppData\Local\Temp\Engine_3332_33339fec771e4246b0b17d9a4235549f_\Engine_3332_f50540a9f091674891f31841bbe28037~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1878" y="1110" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[log_UNTIS]-[Score]" field="Error" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Error = [log_UNTIS]-[Score]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings>
+        <Position x="1974" y="1110" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="field">Error</Value>
+          <Value name="notauto">False</Value>
+          <Value name="breaks">1</Value>
+          <Value name="density">False</Value>
+          <Value name="scale">1.0</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Histogram.yxmc" />
+    </Node>
+    <Node ToolID="73">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2070" y="1110" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\hp\AppData\Local\Temp\Engine_3332_33339fec771e4246b0b17d9a4235549f_\Engine_3332_592777654d804842a585555a0c75336b~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="74">
+      <GuiSettings>
+        <Position x="1974" y="1170" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="x var">Score</Value>
+          <Value name="y var">log_UNTIS</Value>
+          <Value name="y binary">False</Value>
+          <Value name="y level" />
+          <Value name="reg line">True</Value>
+          <Value name="smooth line">True</Value>
+          <Value name="smooth span">50</Value>
+          <Value name="spread">True</Value>
+          <Value name="boxplots">True</Value>
+          <Value name="jitter x">False</Value>
+          <Value name="jitter y">False</Value>
+          <Value name="log x">False</Value>
+          <Value name="log y">False</Value>
+          <Value name="groups">False</Value>
+          <Value name="group var">Store.Brand</Value>
+          <Value name="group lines">False</Value>
+          <Value name="default">True</Value>
+          <Value name="topleft">False</Value>
+          <Value name="topright">False</Value>
+          <Value name="bottomleft">False</Value>
+          <Value name="bottomright">False</Value>
+          <Value name="x label" />
+          <Value name="y label" />
+          <Value name="pointsize">10</Value>
+          <Value name="point size">1.0</Value>
+          <Value name="axis text size">1.2</Value>
+          <Value name="axis label size">1.3</Value>
+          <Value name="title size">1.4</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
+    </Node>
+    <Node ToolID="75">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2070" y="1170" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\hp\AppData\Local\Temp\Engine_3332_33339fec771e4246b0b17d9a4235549f_\Engine_3332_13062a3a0e4abe4f9d0bbac424853e31~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="76">
+      <GuiSettings>
+        <Position x="1974" y="1230" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="x var">Score</Value>
+          <Value name="y var">Error</Value>
+          <Value name="y binary">False</Value>
+          <Value name="y level" />
+          <Value name="reg line">True</Value>
+          <Value name="smooth line">True</Value>
+          <Value name="smooth span">50</Value>
+          <Value name="spread">True</Value>
+          <Value name="boxplots">True</Value>
+          <Value name="jitter x">False</Value>
+          <Value name="jitter y">False</Value>
+          <Value name="log x">False</Value>
+          <Value name="log y">False</Value>
+          <Value name="groups">False</Value>
+          <Value name="group var">Store.Brand</Value>
+          <Value name="group lines">False</Value>
+          <Value name="default">True</Value>
+          <Value name="topleft">False</Value>
+          <Value name="topright">False</Value>
+          <Value name="bottomleft">False</Value>
+          <Value name="bottomright">False</Value>
+          <Value name="x label" />
+          <Value name="y label" />
+          <Value name="pointsize">10</Value>
+          <Value name="point size">1.0</Value>
+          <Value name="axis text size">1.2</Value>
+          <Value name="axis label size">1.3</Value>
+          <Value name="title size">1.4</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">8.00</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
+    </Node>
+    <Node ToolID="77">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2070" y="1230" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\hp\AppData\Local\Temp\Engine_3332_33339fec771e4246b0b17d9a4235549f_\Engine_3332_8eba64fae0fd184cbff5c294fecb8302~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="78">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1974" y="1302" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="UNITS" selected="True" />
+            <SelectField field="Error" selected="True" />
+            <SelectField field="MAPE" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="79">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="2070" y="1302" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="MAPE" action="Avg" rename="Avg_MAPE" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="80">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1878" y="1302" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="exp([Score])" field="Score" size="8" type="Double" />
+            <FormulaField expression="[UNITS] - [Score]" field="Error" size="8" type="Double" />
+            <FormulaField expression="abs([Error]/[UNITS])" field="MAPE" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Score = exp([Score])
+Error = [UNITS] - [Score]
+MAPE = abs([Error]/[UNITS])
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="99">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1278" y="990" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="if [UNITS]&gt;500000 then 1 else 0 endif&#xA;&#xA;" field="Store Size" size="2" type="Int16" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Store Size = if [UNITS]>500000 then 1 else 0 endif
+
+
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="100">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="2166" y="1146" width="168" height="132" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>I dropped the month variable from the list of independent variables for the linear regression and then added a new variable which denotes whether the store is a big store or not. This increased the R squared value to 0.6785 and the MAPE to 0.68</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1002" y="175" width="110" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Hints</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="46">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="1027" y="224" width="155" height="110" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Target Variable = "UNITS"
+from Yogurt_Sales_Data.xlsx
+
+DO NOT use any fields from Yogurt_Sales_Data.xlsx as predictor variables.</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="1" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="47">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="1192" y="224" width="155" height="85" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Predictor Variables must include the price of Chobani yogurt and the price of Yoplait yogurt (or a calculation thereof).</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="1" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="48">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="1523" y="225" width="155" height="158" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Other predictor variable(s) may include metrics (bins) that represent the size of the store.
+
+Maybe use the "Tile" tool to accomplish this?
+
+DO NOT USE STORE BRAND AS PREDICTOR VARIABLE</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="1" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="49">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="1854" y="224" width="155" height="61" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Try your best to get your model errors to be normally distributed.</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="1" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="50">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="2019" y="224" width="155" height="85" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>There is no right or wrong answer. Your goal is to maximize the Adjusted R-Squared and minimize the MAPE.</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="1" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="51">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="1687" y="225" width="155" height="72" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>DO NOT CREATE A VALIDATION SET. USE ALL THE DATA TO TRAIN YOUR MODEL.</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="1" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="52">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="1357" y="224" width="155" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Consider variable transformation 
+(e.g. log transformation)</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="1" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="97">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1544" y="716" width="182" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Data Investigation</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="81">
+          <GuiSettings>
+            <Position x="1554" y="894" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="do target">False</Value>
+              <Value name="target">Store Brand</Value>
+              <Value name="target level" />
+              <Value name="use fields">"UNITS","Price Chobani","Price Yoplait","Dif Price Yoplait"</Value>
+              <Value name="Pearson">True</Value>
+              <Value name="Spearman">False</Value>
+              <Value name="Hoeffding">False</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Association_Analysis.yxmc" />
+        </Node>
+        <Node ToolID="82">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1650" y="894" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\hp\AppData\Local\Temp\Engine_3332_33339fec771e4246b0b17d9a4235549f_\Engine_3332_d65300c327b1e746be9f12e98e369137~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="83">
+          <GuiSettings>
+            <Position x="1554" y="750" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="x var">Price Chobani</Value>
+              <Value name="y var">UNITS</Value>
+              <Value name="y binary">False</Value>
+              <Value name="y level" />
+              <Value name="reg line">True</Value>
+              <Value name="smooth line">True</Value>
+              <Value name="smooth span">50</Value>
+              <Value name="spread">True</Value>
+              <Value name="boxplots">True</Value>
+              <Value name="jitter x">False</Value>
+              <Value name="jitter y">False</Value>
+              <Value name="log x">False</Value>
+              <Value name="log y">False</Value>
+              <Value name="groups">False</Value>
+              <Value name="group var">Store Brand</Value>
+              <Value name="group lines">False</Value>
+              <Value name="default">True</Value>
+              <Value name="topleft">False</Value>
+              <Value name="topright">False</Value>
+              <Value name="bottomleft">False</Value>
+              <Value name="bottomright">False</Value>
+              <Value name="x label" />
+              <Value name="y label" />
+              <Value name="pointsize">10</Value>
+              <Value name="point size">1.0</Value>
+              <Value name="axis text size">1.2</Value>
+              <Value name="axis label size">1.3</Value>
+              <Value name="title size">1.4</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
+        </Node>
+        <Node ToolID="84">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1650" y="750" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\hp\AppData\Local\Temp\Engine_3332_33339fec771e4246b0b17d9a4235549f_\Engine_3332_61231a376310fa40be9c21ec295a556d~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="85">
+          <GuiSettings>
+            <Position x="1554" y="798" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="x var">Price Yoplait</Value>
+              <Value name="y var">UNITS</Value>
+              <Value name="y binary">False</Value>
+              <Value name="y level" />
+              <Value name="reg line">True</Value>
+              <Value name="smooth line">True</Value>
+              <Value name="smooth span">50</Value>
+              <Value name="spread">True</Value>
+              <Value name="boxplots">True</Value>
+              <Value name="jitter x">False</Value>
+              <Value name="jitter y">False</Value>
+              <Value name="log x">False</Value>
+              <Value name="log y">False</Value>
+              <Value name="groups">False</Value>
+              <Value name="group var">Store Brand</Value>
+              <Value name="group lines">False</Value>
+              <Value name="default">True</Value>
+              <Value name="topleft">False</Value>
+              <Value name="topright">False</Value>
+              <Value name="bottomleft">False</Value>
+              <Value name="bottomright">False</Value>
+              <Value name="x label" />
+              <Value name="y label" />
+              <Value name="pointsize">10</Value>
+              <Value name="point size">1.0</Value>
+              <Value name="axis text size">1.2</Value>
+              <Value name="axis label size">1.3</Value>
+              <Value name="title size">1.4</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
+        </Node>
+        <Node ToolID="86">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1650" y="798" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\hp\AppData\Local\Temp\Engine_3332_33339fec771e4246b0b17d9a4235549f_\Engine_3332_1e4f2dca04b3aa48bd59770bc1572296~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="87">
+          <GuiSettings>
+            <Position x="1554" y="846" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="x var">Dif Price Yoplait</Value>
+              <Value name="y var">UNITS</Value>
+              <Value name="y binary">False</Value>
+              <Value name="y level" />
+              <Value name="reg line">True</Value>
+              <Value name="smooth line">True</Value>
+              <Value name="smooth span">50</Value>
+              <Value name="spread">True</Value>
+              <Value name="boxplots">True</Value>
+              <Value name="jitter x">False</Value>
+              <Value name="jitter y">False</Value>
+              <Value name="log x">False</Value>
+              <Value name="log y">False</Value>
+              <Value name="groups">False</Value>
+              <Value name="group var">Store Brand</Value>
+              <Value name="group lines">False</Value>
+              <Value name="default">True</Value>
+              <Value name="topleft">False</Value>
+              <Value name="topright">False</Value>
+              <Value name="bottomleft">False</Value>
+              <Value name="bottomright">False</Value>
+              <Value name="x label" />
+              <Value name="y label" />
+              <Value name="pointsize">10</Value>
+              <Value name="point size">1.0</Value>
+              <Value name="axis text size">1.2</Value>
+              <Value name="axis label size">1.3</Value>
+              <Value name="title size">1.4</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
+        </Node>
+        <Node ToolID="88">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1650" y="846" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\hp\AppData\Local\Temp\Engine_3332_33339fec771e4246b0b17d9a4235549f_\Engine_3332_a232ac2ac613d147bbb43a616fa5a376~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="89">
+          <GuiSettings>
+            <Position x="1734" y="894" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="do target">False</Value>
+              <Value name="target">Store Brand</Value>
+              <Value name="target level" />
+              <Value name="use fields">"UNITS","Price Chobani","Price Yoplait","Dif Price Yoplait"</Value>
+              <Value name="Pearson">True</Value>
+              <Value name="Spearman">False</Value>
+              <Value name="Hoeffding">False</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Association_Analysis.yxmc" />
+        </Node>
+        <Node ToolID="90">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1830" y="894" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\hp\AppData\Local\Temp\Engine_3332_33339fec771e4246b0b17d9a4235549f_\Engine_3332_c28add59a0e46341878b72dfe79bf8c8~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="91">
+          <GuiSettings>
+            <Position x="1734" y="750" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="x var">log_UNTIS</Value>
+              <Value name="y var">log_Price Chobani</Value>
+              <Value name="y binary">False</Value>
+              <Value name="y level" />
+              <Value name="reg line">True</Value>
+              <Value name="smooth line">True</Value>
+              <Value name="smooth span">50</Value>
+              <Value name="spread">True</Value>
+              <Value name="boxplots">True</Value>
+              <Value name="jitter x">False</Value>
+              <Value name="jitter y">False</Value>
+              <Value name="log x">False</Value>
+              <Value name="log y">False</Value>
+              <Value name="groups">False</Value>
+              <Value name="group var">Store Brand</Value>
+              <Value name="group lines">False</Value>
+              <Value name="default">True</Value>
+              <Value name="topleft">False</Value>
+              <Value name="topright">False</Value>
+              <Value name="bottomleft">False</Value>
+              <Value name="bottomright">False</Value>
+              <Value name="x label" />
+              <Value name="y label" />
+              <Value name="pointsize">10</Value>
+              <Value name="point size">1.0</Value>
+              <Value name="axis text size">1.2</Value>
+              <Value name="axis label size">1.3</Value>
+              <Value name="title size">1.4</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
+        </Node>
+        <Node ToolID="92">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1830" y="750" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\hp\AppData\Local\Temp\Engine_3332_33339fec771e4246b0b17d9a4235549f_\Engine_3332_14288adef8ef0144bfe6ee1d5756cb73~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="93">
+          <GuiSettings>
+            <Position x="1734" y="798" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="x var">log_UNTIS</Value>
+              <Value name="y var">log_Price Yoplait</Value>
+              <Value name="y binary">False</Value>
+              <Value name="y level" />
+              <Value name="reg line">True</Value>
+              <Value name="smooth line">True</Value>
+              <Value name="smooth span">50</Value>
+              <Value name="spread">True</Value>
+              <Value name="boxplots">True</Value>
+              <Value name="jitter x">False</Value>
+              <Value name="jitter y">False</Value>
+              <Value name="log x">False</Value>
+              <Value name="log y">False</Value>
+              <Value name="groups">False</Value>
+              <Value name="group var">Store Brand</Value>
+              <Value name="group lines">False</Value>
+              <Value name="default">True</Value>
+              <Value name="topleft">False</Value>
+              <Value name="topright">False</Value>
+              <Value name="bottomleft">False</Value>
+              <Value name="bottomright">False</Value>
+              <Value name="x label" />
+              <Value name="y label" />
+              <Value name="pointsize">10</Value>
+              <Value name="point size">1.0</Value>
+              <Value name="axis text size">1.2</Value>
+              <Value name="axis label size">1.3</Value>
+              <Value name="title size">1.4</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
+        </Node>
+        <Node ToolID="94">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1830" y="798" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\hp\AppData\Local\Temp\Engine_3332_33339fec771e4246b0b17d9a4235549f_\Engine_3332_ff17a2cef2c34a4e9f50dfc89c844ff9~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="95">
+          <GuiSettings>
+            <Position x="1734" y="846" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="x var">log_UNTIS</Value>
+              <Value name="y var">Dif Price Yoplait</Value>
+              <Value name="y binary">False</Value>
+              <Value name="y level" />
+              <Value name="reg line">True</Value>
+              <Value name="smooth line">True</Value>
+              <Value name="smooth span">50</Value>
+              <Value name="spread">True</Value>
+              <Value name="boxplots">True</Value>
+              <Value name="jitter x">False</Value>
+              <Value name="jitter y">False</Value>
+              <Value name="log x">False</Value>
+              <Value name="log y">False</Value>
+              <Value name="groups">False</Value>
+              <Value name="group var">Store Brand</Value>
+              <Value name="group lines">False</Value>
+              <Value name="default">True</Value>
+              <Value name="topleft">False</Value>
+              <Value name="topright">False</Value>
+              <Value name="bottomleft">False</Value>
+              <Value name="bottomright">False</Value>
+              <Value name="x label" />
+              <Value name="y label" />
+              <Value name="pointsize">10</Value>
+              <Value name="point size">1.0</Value>
+              <Value name="axis text size">1.2</Value>
+              <Value name="axis label size">1.3</Value>
+              <Value name="title size">1.4</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
+        </Node>
+        <Node ToolID="96">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1830" y="846" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\hp\AppData\Local\Temp\Engine_3332_33339fec771e4246b0b17d9a4235549f_\Engine_3332_63c02058bef30b4b95f7829d9d5031bf~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="53" Connection="Output" />
+      <Destination ToolID="54" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="Output" />
+      <Destination ToolID="62" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="Output" />
+      <Destination ToolID="62" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="60" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="60" Connection="True" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="62" Connection="Join" />
+      <Destination ToolID="99" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="81" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="83" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="64" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="66" Connection="Left Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Output" />
+      <Destination ToolID="66" Connection="Right Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="85" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="87" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="91" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="93" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="95" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="89" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Reports" />
+      <Destination ToolID="65" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Interactive Report" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="67" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="67" Connection="Output" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="Output" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="71" Connection="Output" />
+      <Destination ToolID="72" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="71" Connection="Output" />
+      <Destination ToolID="74" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="71" Connection="Output" />
+      <Destination ToolID="76" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="71" Connection="Output" />
+      <Destination ToolID="80" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="74" Connection="Scater Output" />
+      <Destination ToolID="75" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="76" Connection="Scater Output" />
+      <Destination ToolID="77" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="78" Connection="Output" />
+      <Destination ToolID="79" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="80" Connection="Output" />
+      <Destination ToolID="78" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="99" Connection="Output" />
+      <Destination ToolID="68" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="81" Connection="Correlation Matrix" />
+      <Destination ToolID="82" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="83" Connection="Scater Output" />
+      <Destination ToolID="84" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="85" Connection="Scater Output" />
+      <Destination ToolID="86" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="87" Connection="Scater Output" />
+      <Destination ToolID="88" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="89" Connection="Correlation Matrix" />
+      <Destination ToolID="90" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="91" Connection="Scater Output" />
+      <Destination ToolID="92" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="93" Connection="Scater Output" />
+      <Destination ToolID="94" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="95" Connection="Scater Output" />
+      <Destination ToolID="96" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="1" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="False" />
+    <ShowConnectionStatusOnlyWhenRunning value="False" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Yogurt Analytics_final</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="dc38398c-0a0b-4cbf-aa36-ef3f53d2dd6f" />
+      <Telemetry>
+        <PreviousWorkflowId value="0e686704-69a8-47e3-b8cc-6248925ad671" />
+        <OriginWorkflowId value="0e686704-69a8-47e3-b8cc-6248925ad671" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

@@ -1,0 +1,779 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="390" y="246" width="252" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Output</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="246" width="324" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Input</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="78" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="1" />
+          <Fields>
+            <Field name="URL" />
+            <Field name="DownloadData" />
+            <Field name="DownloadHeaders" />
+          </Fields>
+          <Data>
+            <r>
+              <c>https://new.qualtrics.com/Server/RestApi.php?Request=getResponseData&amp;User=cahtest&amp;Password=Cardinal123&amp;SurveyID=SV_40E3e6i10PNhl8p&amp;Format=CSV</c>
+              <c><![CDATA[ï»¿V1,V2,V3,V4,V5,V6,V7,V8,V9,V10,V11,V12,LocationLatitude,LocationLongitude,LocationAccuracy,
+ResponseID,ResponseSet,Name,ExternalDataReference,EmailAddress,IPAddress,Status,StartDate,EndDate,Finished,How fast is Alteryx?,Would you recommend Alteryx.,LocationLatitude,LocationLongitude,LocationAccuracy,
+R_4NnFEGkMblF5dlP,Default Response Set,Anonymous,,,,2,2012-10-01 10:19:17,2012-10-01 10:19:18,1,5,5,,,-1,
+R_3a5658utVvVCXEF,Default Response Set,Anonymous,,,,2,2012-10-01 10:19:18,2012-10-01 10:19:18,1,3,4,,,-1,
+R_eUS5IQU1yyLx9WJ,Default Response Set,Anonymous,,,,2,2012-10-01 10:19:19,2012-10-01 10:19:19,1,5,3,,,-1,
+R_5tG7pVzcyZI9l5z,Default Response Set,Anonymous,,,,2,2012-10-01 10:19:20,2012-10-01 10:19:20,1,3,4,,,-1,
+R_abjuSGBnXURBCRL,Default Response Set,Anonymous,,,,2,2012-10-01 10:19:21,2012-10-01 10:19:21,1,4,2,,,-1,
+R_ePOy0utXzHpE5w1,Default Response Set,Anonymous,,,,2,2012-10-01 10:19:21,2012-10-01 10:19:21,1,2,4,,,-1,
+R_b8ZYzh6prhP9EKV,Default Response Set,Anonymous,,,,2,2012-10-01 10:19:21,2012-10-01 10:19:21,1,6,4,,,-1,
+R_cZUwXo8RISp1XV3,Default Response Set,Anonymous,,,,2,2012-10-01 10:19:22,2012-10-01 10:19:22,1,5,5,,,-1,
+R_ekBvCPhnS8H3I7b,Default Response Set,Anonymous,,,,2,2012-10-01 10:19:23,2012-10-01 10:19:23,1,2,5,,,-1,
+R_eA8QOzjYzICjWFD,Default Response Set,Anonymous,,,,1,2012-10-01 10:20:49,2012-10-01 10:20:49,1,6,4,,,-1,
+R_bguporIYOjKdH37,Default Response Set,Anonymous,,,,2,2012-10-01 10:19:16,2012-10-01 10:19:16,1,5,4,,,-1,
+R_0c7rpOxKGn7xZ8p,Default Response Set,Anonymous,,,,2,2012-10-01 10:19:17,2012-10-01 10:19:17,1,6,2,,,-1,
+R_85KOEf20vEOaXzf,Default Response Set,Anonymous,,,,2,2012-10-01 10:19:19,2012-10-01 10:19:19,1,5,4,,,-1,
+R_aUTXj5jHlDTb4Ff,Default Response Set,Anonymous,,,,2,2012-10-01 10:19:19,2012-10-01 10:19:19,1,2,3,,,-1,
+R_bOe5TBrt5jH5wHP,Default Response Set,Anonymous,,,,2,2012-10-01 10:19:20,2012-10-01 10:19:20,1,2,2,,,-1,
+R_b12Gyhfr3vnXpnn,Default Response Set,Anonymous,,,,2,2012-10-01 10:19:22,2012-10-01 10:19:22,1,3,1,,,-1,
+R_2gZzrWTWTH8Revj,Default Response Set,Anonymous,,,,2,2012-10-01 10:19:22,2012-10-01 10:19:22,1,6,1,,,-1,
+R_4HHNIpliDabnehT,Default Response Set,Anonymous,,,,2,2012-10-01 10:19:23,2012-10-01 10:19:23,1,6,4,,,-1,
+R_3vH1Y3S68ARumjP,Default Response Set,Anonymous,,,,2,2012-10-01 10:19:20,2012-10-01 10:19:20,1,1,2,,,-1,
+R_0NC2vYB23t7g3wF,Default Response Set,Anonymous,,,,2,2012-10-01 10:19:21,2012-10-01 10:19:21,1,5,2,,,-1,
+R_4GtYoRlVJRVKPRz,Default Response Set,Anonymous,,,,2,2012-10-01 10:19:17,2012-10-01 10:19:17,1,3,3,,,-1,
+]]></c>
+              <c><![CDATA[HTTP/1.1 200 OK
+Server: Apache
+RequestStatus: Success
+Cache-Control: max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0, max-age=315360000
+Pragma: 
+Content-disposition: attachment; filename="Alteryx.csv"
+Content-Transfer-Encoding: binary
+Expires: Thu, 09 May 2024 20:30:59 GMT
+P3P: CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI COM NAV INT DEM PRE", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI COM NAV INT DEM PRE"
+ServerShortName: w2
+Content-Length: 2531
+Content-Type: application/vnd.msexcel
+Date: Mon, 12 May 2014 20:30:59 GMT
+Connection: keep-alive
+Set-Cookie: UDSSessionID=D32C941374A8C0EDD05E5D96F9B2A70B3C2D7CE2D88AD5063BE5C1C8ADE3A554; path=/; secure; httponly
+
+]]></c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="450" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="21" />
+          <Fields>
+            <Field name="ResponseID" />
+            <Field name="ResponseSet" />
+            <Field name="Name" />
+            <Field name="ExternalDataReference" />
+            <Field name="EmailAddress" />
+            <Field name="IPAddress" />
+            <Field name="Status" />
+            <Field name="StartDate" />
+            <Field name="EndDate" />
+            <Field name="Finished" />
+            <Field name="How fast is Alteryx?" />
+            <Field name="Would you recommend Alteryx." />
+          </Fields>
+          <Data>
+            <r>
+              <c>R_4NnFEGkMblF5dlP</c>
+              <c>Default Response Set</c>
+              <c>Anonymous</c>
+              <c />
+              <c />
+              <c />
+              <c>2</c>
+              <c>2012-10-01 10:19:17</c>
+              <c>2012-10-01 10:19:18</c>
+              <c>1</c>
+              <c>5</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>R_3a5658utVvVCXEF</c>
+              <c>Default Response Set</c>
+              <c>Anonymous</c>
+              <c />
+              <c />
+              <c />
+              <c>2</c>
+              <c>2012-10-01 10:19:18</c>
+              <c>2012-10-01 10:19:18</c>
+              <c>1</c>
+              <c>3</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>R_eUS5IQU1yyLx9WJ</c>
+              <c>Default Response Set</c>
+              <c>Anonymous</c>
+              <c />
+              <c />
+              <c />
+              <c>2</c>
+              <c>2012-10-01 10:19:19</c>
+              <c>2012-10-01 10:19:19</c>
+              <c>1</c>
+              <c>5</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>R_5tG7pVzcyZI9l5z</c>
+              <c>Default Response Set</c>
+              <c>Anonymous</c>
+              <c />
+              <c />
+              <c />
+              <c>2</c>
+              <c>2012-10-01 10:19:20</c>
+              <c>2012-10-01 10:19:20</c>
+              <c>1</c>
+              <c>3</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>R_abjuSGBnXURBCRL</c>
+              <c>Default Response Set</c>
+              <c>Anonymous</c>
+              <c />
+              <c />
+              <c />
+              <c>2</c>
+              <c>2012-10-01 10:19:21</c>
+              <c>2012-10-01 10:19:21</c>
+              <c>1</c>
+              <c>4</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>R_ePOy0utXzHpE5w1</c>
+              <c>Default Response Set</c>
+              <c>Anonymous</c>
+              <c />
+              <c />
+              <c />
+              <c>2</c>
+              <c>2012-10-01 10:19:21</c>
+              <c>2012-10-01 10:19:21</c>
+              <c>1</c>
+              <c>2</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>R_b8ZYzh6prhP9EKV</c>
+              <c>Default Response Set</c>
+              <c>Anonymous</c>
+              <c />
+              <c />
+              <c />
+              <c>2</c>
+              <c>2012-10-01 10:19:21</c>
+              <c>2012-10-01 10:19:21</c>
+              <c>1</c>
+              <c>6</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>R_cZUwXo8RISp1XV3</c>
+              <c>Default Response Set</c>
+              <c>Anonymous</c>
+              <c />
+              <c />
+              <c />
+              <c>2</c>
+              <c>2012-10-01 10:19:22</c>
+              <c>2012-10-01 10:19:22</c>
+              <c>1</c>
+              <c>5</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>R_ekBvCPhnS8H3I7b</c>
+              <c>Default Response Set</c>
+              <c>Anonymous</c>
+              <c />
+              <c />
+              <c />
+              <c>2</c>
+              <c>2012-10-01 10:19:23</c>
+              <c>2012-10-01 10:19:23</c>
+              <c>1</c>
+              <c>2</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>R_eA8QOzjYzICjWFD</c>
+              <c>Default Response Set</c>
+              <c>Anonymous</c>
+              <c />
+              <c />
+              <c />
+              <c>1</c>
+              <c>2012-10-01 10:20:49</c>
+              <c>2012-10-01 10:20:49</c>
+              <c>1</c>
+              <c>6</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>R_bguporIYOjKdH37</c>
+              <c>Default Response Set</c>
+              <c>Anonymous</c>
+              <c />
+              <c />
+              <c />
+              <c>2</c>
+              <c>2012-10-01 10:19:16</c>
+              <c>2012-10-01 10:19:16</c>
+              <c>1</c>
+              <c>5</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>R_0c7rpOxKGn7xZ8p</c>
+              <c>Default Response Set</c>
+              <c>Anonymous</c>
+              <c />
+              <c />
+              <c />
+              <c>2</c>
+              <c>2012-10-01 10:19:17</c>
+              <c>2012-10-01 10:19:17</c>
+              <c>1</c>
+              <c>6</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>R_85KOEf20vEOaXzf</c>
+              <c>Default Response Set</c>
+              <c>Anonymous</c>
+              <c />
+              <c />
+              <c />
+              <c>2</c>
+              <c>2012-10-01 10:19:19</c>
+              <c>2012-10-01 10:19:19</c>
+              <c>1</c>
+              <c>5</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>R_aUTXj5jHlDTb4Ff</c>
+              <c>Default Response Set</c>
+              <c>Anonymous</c>
+              <c />
+              <c />
+              <c />
+              <c>2</c>
+              <c>2012-10-01 10:19:19</c>
+              <c>2012-10-01 10:19:19</c>
+              <c>1</c>
+              <c>2</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>R_bOe5TBrt5jH5wHP</c>
+              <c>Default Response Set</c>
+              <c>Anonymous</c>
+              <c />
+              <c />
+              <c />
+              <c>2</c>
+              <c>2012-10-01 10:19:20</c>
+              <c>2012-10-01 10:19:20</c>
+              <c>1</c>
+              <c>2</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>R_b12Gyhfr3vnXpnn</c>
+              <c>Default Response Set</c>
+              <c>Anonymous</c>
+              <c />
+              <c />
+              <c />
+              <c>2</c>
+              <c>2012-10-01 10:19:22</c>
+              <c>2012-10-01 10:19:22</c>
+              <c>1</c>
+              <c>3</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>R_2gZzrWTWTH8Revj</c>
+              <c>Default Response Set</c>
+              <c>Anonymous</c>
+              <c />
+              <c />
+              <c />
+              <c>2</c>
+              <c>2012-10-01 10:19:22</c>
+              <c>2012-10-01 10:19:22</c>
+              <c>1</c>
+              <c>6</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>R_4HHNIpliDabnehT</c>
+              <c>Default Response Set</c>
+              <c>Anonymous</c>
+              <c />
+              <c />
+              <c />
+              <c>2</c>
+              <c>2012-10-01 10:19:23</c>
+              <c>2012-10-01 10:19:23</c>
+              <c>1</c>
+              <c>6</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>R_3vH1Y3S68ARumjP</c>
+              <c>Default Response Set</c>
+              <c>Anonymous</c>
+              <c />
+              <c />
+              <c />
+              <c>2</c>
+              <c>2012-10-01 10:19:20</c>
+              <c>2012-10-01 10:19:20</c>
+              <c>1</c>
+              <c>1</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>R_0NC2vYB23t7g3wF</c>
+              <c>Default Response Set</c>
+              <c>Anonymous</c>
+              <c />
+              <c />
+              <c />
+              <c>2</c>
+              <c>2012-10-01 10:19:21</c>
+              <c>2012-10-01 10:19:21</c>
+              <c>1</c>
+              <c>5</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>R_4GtYoRlVJRVKPRz</c>
+              <c>Default Response Set</c>
+              <c>Anonymous</c>
+              <c />
+              <c />
+              <c />
+              <c>2</c>
+              <c>2012-10-01 10:19:17</c>
+              <c>2012-10-01 10:19:17</c>
+              <c>1</c>
+              <c>3</c>
+              <c>3</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="534" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\hp\AppData\Local\Temp\Engine_9420_8b6e74cc1286c44e9067b81c58005e2a_\Engine_9420_e6afa88c86ffa44b8bd3b34e210929e0~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="174" y="54" width="372" height="168" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[
+
+Many customers of Alteryx attain survey based data from Qualtrics: http://www.qualtrics.com/.
+
+This data contained in the field: DownloadData needs to be parsed effectively for analysis.
+
+Please reshape the data from the Input (results from a download tool) and parse into a table for analytics.]]></Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="294" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>DownloadData</Field>
+          <RegExExpression value="(.+?)(?:,,,-1,)" />
+          <CaseInsensitve value="False" />
+          <Method>ParseSimple</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="True" />
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="RegExOut1" type="V_String" size="2147483647" />
+          </ParseComplex>
+          <Match>
+            <Field>URL_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="318" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>DownloadData</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>DownloadData</RootName>
+          <Delimeters value="," />
+          <NumFields value="12" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="150" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>DownloadData</Field>
+          <RegExExpression value="ï»¿V1,V2,V3,V4,V5,V6,V7,V8,V9,V10,V11,V12,LocationLatitude,LocationLongitude,LocationAccuracy," />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>DownloadData</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>URL_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="198" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>DownloadData1</Field>
+          <RegExExpression value="\n" />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>DownloadData1</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>URL_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="150" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>FirstRow</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="URL" />
+            <Field name="DownloadData" />
+            <Field name="DownloadHeaders" />
+            <Field name="DownloadData1" />
+            <Field name="DownloadData2" />
+            <Field name="DownloadData3" />
+            <Field name="DownloadData4" />
+            <Field name="DownloadData5" />
+            <Field name="DownloadData6" />
+            <Field name="DownloadData7" />
+            <Field name="DownloadData8" />
+            <Field name="DownloadData9" />
+            <Field name="DownloadData10" />
+            <Field name="DownloadData11" />
+            <Field name="DownloadData12" />
+            <Field name="*Unknown" />
+          </Fields>
+          <Expression />
+          <FirstRow>
+            <OnError>Warn</OnError>
+          </FirstRow>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="https://new.qualtrics.com/Server/RestApi.php?Request=getResponseData&amp;User=cahtest&amp;Password=Cardinal123&amp;SurveyID=SV_40E3e6i10PNhl8p&amp;Format=CSV" size="2147483647" source="TextInput:" type="V_String" />
+            <Field name="&#xA;ResponseID,ResponseSet,Name,ExternalDataReference,EmailAddress,IPAddress,Status,StartDate,EndDate,Finished,How fast is Alteryx?,Would you recommend Alteryx.,LocationLatitude,LocationLongitude,LocationAccuracy,&#xA;R_4NnFEGkMblF5dlP,Default Response Set,Anony" size="2147483647" source="TextInput:" type="V_String" />
+            <Field name="HTTP/1.1 200 OK&#xA;Server: Apache&#xA;RequestStatus: Success&#xA;Cache-Control: max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0, max-age=315360000&#xA;Pragma: &#xA;Content-disposition: attachment; filename=&quot;Alteryx.csv&quot;&#xA;Content-Transfer-Encoding: b" size="2147483647" source="TextInput:" type="V_String" />
+            <Field description="TextToColumns: Parsed from DownloadData" name="ResponseID" size="2147483647" source="TextToColumns: Parsed from DownloadData" type="V_String" />
+            <Field description="TextToColumns: Parsed from DownloadData" name="ResponseSet" size="2147483647" source="TextToColumns: Parsed from DownloadData" type="V_String" />
+            <Field description="TextToColumns: Parsed from DownloadData" name="Name" size="2147483647" source="TextToColumns: Parsed from DownloadData" type="V_String" />
+            <Field description="TextToColumns: Parsed from DownloadData" name="ExternalDataReference" size="2147483647" source="TextToColumns: Parsed from DownloadData" type="V_String" />
+            <Field description="TextToColumns: Parsed from DownloadData" name="EmailAddress" size="2147483647" source="TextToColumns: Parsed from DownloadData" type="V_String" />
+            <Field description="TextToColumns: Parsed from DownloadData" name="IPAddress" size="2147483647" source="TextToColumns: Parsed from DownloadData" type="V_String" />
+            <Field description="TextToColumns: Parsed from DownloadData" name="Status" size="2147483647" source="TextToColumns: Parsed from DownloadData" type="V_String" />
+            <Field description="TextToColumns: Parsed from DownloadData" name="StartDate" size="2147483647" source="TextToColumns: Parsed from DownloadData" type="V_String" />
+            <Field description="TextToColumns: Parsed from DownloadData" name="EndDate" size="2147483647" source="TextToColumns: Parsed from DownloadData" type="V_String" />
+            <Field description="TextToColumns: Parsed from DownloadData" name="Finished" size="2147483647" source="TextToColumns: Parsed from DownloadData" type="V_String" />
+            <Field description="TextToColumns: Parsed from DownloadData" name="How fast is Alteryx?" size="2147483647" source="TextToColumns: Parsed from DownloadData" type="V_String" />
+            <Field description="TextToColumns: Parsed from DownloadData" name="Would you recommend Alteryx.,LocationLatitude,LocationLongitude,LocationAccuracy,&#xA;R_4NnFEGkMblF5dlP,Default Response Set,Anonymous,,,,2,2012-10-01 10:19:17,2012-10-01 10:19:18,1,5,5" size="2147483647" source="TextToColumns: Parsed from DownloadData" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="234" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ResponseID" selected="True" />
+            <SelectField field="ResponseSet" selected="True" />
+            <SelectField field="Name" selected="True" />
+            <SelectField field="ExternalDataReference" selected="True" />
+            <SelectField field="EmailAddress" selected="True" />
+            <SelectField field="IPAddress" selected="True" />
+            <SelectField field="Status" selected="True" />
+            <SelectField field="StartDate" selected="True" />
+            <SelectField field="EndDate" selected="True" />
+            <SelectField field="Finished" selected="True" />
+            <SelectField field="How fast is Alteryx?" selected="True" />
+            <SelectField field="Would you recommend Alteryx.,LocationLatitude,LocationLongitude,LocationAccuracy,&#xA;R_4NnFEGkMblF5dlP,Default Response Set,Anonymous,,,,2,2012-10-01 10:19:17,2012-10-01 10:19:18,1,5,5" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="24" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>01 DataPrep_QualtricsSurveyParsing</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="28e9c804-1d93-4afe-a459-8d8409e311db" />
+      <Telemetry>
+        <PreviousWorkflowId value="" />
+        <OriginWorkflowId value="28e9c804-1d93-4afe-a459-8d8409e311db" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
